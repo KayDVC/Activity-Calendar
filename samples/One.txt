@@ -1,0 +1,8 @@
+AddActivity 03200930 Cycling
+AddActivity 03211100 Jogging
+AddActivity 03231045 Hiking
+AddActivity 03231945 Workout
+GetActivity 03211100
+GetActivitiesForOneDay 0323
+GetActivitiesFromEarlierInTheDay 03231600
+PrintSkipList

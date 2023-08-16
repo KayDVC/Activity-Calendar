@@ -1,0 +1,11 @@
+AddActivity 11011000 Warmup
+AddActivity 11011015 Running
+AddActivity 11011500 Cycling
+AddActivity 11012100 Cooldown
+AddActivity 11012230 Walking
+PrintSkipList
+RemoveActivity 11022100
+RemoveActivity 11012100
+AddActivity 11012300 Swimming
+GetActivitiesBetweenTimes 11010900 11012200
+PrintSkipList

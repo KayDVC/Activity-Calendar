@@ -1,0 +1,9 @@
+# VS Code Project
+/bin
+/.vscode
+
+# Mac OS
+**/*/.DS_STORE
+
+# Java
+**/*/*.class

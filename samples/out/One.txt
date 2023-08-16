@@ -1,0 +1,63 @@
+Command received:
+	AddActivity 03200930 Cycling
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	AddActivity 03211100 Jogging
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	AddActivity 03231045 Hiking
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	AddActivity 03231945 Workout
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	GetActivity 03211100
+
+Response:
+	Jogging
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	GetActivitiesForOneDay 0323
+
+Response:
+	03231045 : Hiking 
+	03231945 : Workout 
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	GetActivitiesFromEarlierInTheDay 03231600
+
+Response:
+	03231045 : Hiking 
+
+	✅ Command executed successfully
+--------------------
+
+Command received:
+	PrintSkipList
+
+Response:
+	(L2)  03231945 : Workout
+	(L1)  03211100 : Jogging,  03231945 : Workout
+	(L0)  03200930 : Cycling,  03211100 : Jogging,  03231045 : Hiking,  03231945 : Workout
+
+	✅ Command executed successfully
+--------------------
+
