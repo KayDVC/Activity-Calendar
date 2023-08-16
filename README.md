@@ -14,7 +14,7 @@ The application features database-like storage and commands to add, retrieve, an
 
 ## Use
 
-Requires Java. Tested `openjdk 17.0.8`.
+Requires Java. Tested using `openjdk 17.0.8`.
 
 ### Input Files
 
